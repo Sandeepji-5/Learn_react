@@ -5,17 +5,17 @@ import './App.css'
 
 function App() {
 
-  let  [counter, setCounter] = useState(107);
-  let [rounds, curRounds]= useState(15);
+  let  [counter, setCounter] = useState(106);
+  let [rounds, curRounds]= useState(16);
   //let   counter = 15;
   const addValue = ()=>{
 
 
 
-  if(counter ===107){
+  if(counter ===108){
     setCounter(0);
     curRounds(rounds+1);
-    if(rounds === 15){
+    if(rounds === 16){
       curRounds(0);
       alert(" ❤️ Thankyou so much for completing Your Daily minimum 16 rounds -  Srila Prabhupad ")
     }
